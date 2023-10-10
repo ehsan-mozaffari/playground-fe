@@ -1,0 +1,18 @@
+article {
+  color: azure;
+}
+article > div {
+  /* selector by tag name priority low: 1 */
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(255, 0, 0) !important;
+  /* display: inline; */
+  border: 0;
+}
+
+.hello {
+  font-size: 25px;
+}
+.hello-world {
+  font-size: large;
+}/*# sourceMappingURL=sass-style.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Title Doc</title>
+  </head>
+  <body>
+    <h1 onclick="console.log('Header clicked!')" class="">My first header!!</h1>
+    <h1 onclick="test()" class="">My second header!!</h1>
+    <h1 onclick=testInFile() class="">My third header!!</h1>
+    <article style="color: blueviolet; font-size: 30px">
+      <div id="firstdiv">1</div>
+      <div class="firstclass">2</div>
+      <div>3</div>
+    </article>
+    <style>
+      div {
+        padding: 2px;
+        margin: 20px;
+        background-color: gray;
+        /* display: inline; */
+        border: 0;
+      }
+    </style>
+    <script>
+        function test(){
+            console.log('test javascript function')
+            return 0;
+        }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

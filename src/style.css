@@ -1,0 +1,18 @@
+article > div {  /* selector by tag name priority low: 1 */
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(255, 0, 0) !important /* priority Critical: 1000 */;
+  /* display: inline; */
+  border: 0;
+}
+.firstclass { /* selector by class name  priority medium: 10*/
+    background-color: aquamarine;
+}
+#firstdiv { /* selector by id priority High: 100*/
+  background-color: aqua;
+}
+
+article {  /* selector by tag name priority low: 1 */
+    color: rgb(21, 255, 0) !important;
+  }
+
